@@ -55,8 +55,8 @@ first = "Elle"
 middle = "Rose"
 last = "Kessner"
 
-def greet_person(name, second, last)
-  puts "#{name} #{second} #{last}"
+def greet_person(name, second, third)
+  puts "#{name} #{second} #{third}"
 end
 
 greet_person(first, middle, last)
@@ -65,6 +65,6 @@ greet_person(first, middle, last)
 # What is the return value of your method?
 # ==> Elle Rose Kessner
 # How many arguments did you pass your method?
-# three arguments: first, middle and last
+# three arguments ==> first, middle, last
 # What data type was your argument(s)?
 # string
